@@ -1,0 +1,386 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Demonstrates resource cleanup in media operations"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Resource cleanup scenarios for AVPlayer and AVRecorder"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Cleanup Lab"
+    },
+    {
+      "name": "reason_microphone",
+      "value": "Used to record a short audio clip in the recording cleanup scenarios"
+    },
+    {
+      "name": "page_title",
+      "value": "Cleanup Lab"
+    },
+    {
+      "name": "running",
+      "value": "Running…"
+    },
+    {
+      "name": "log_empty",
+      "value": "Tap Run to start"
+    },
+    {
+      "name": "scenario_clean_playback",
+      "value": "Clean playback"
+    },
+    {
+      "name": "scenario_missing_file",
+      "value": "Missing file"
+    },
+    {
+      "name": "scenario_corrupt_file",
+      "value": "Corrupt file"
+    },
+    {
+      "name": "scenario_double_release",
+      "value": "Double release"
+    },
+    {
+      "name": "scenario_record_play",
+      "value": "Record and play"
+    },
+    {
+      "name": "scenario_failed_record",
+      "value": "Failed recording"
+    },
+    {
+      "name": "log_player_created",
+      "value": "AVPlayer created"
+    },
+    {
+      "name": "log_player_state",
+      "value": "Player state: %s"
+    },
+    {
+      "name": "log_rawfd_opened",
+      "value": "Rawfile fd opened: %s"
+    },
+    {
+      "name": "log_sandbox_fd_opened",
+      "value": "File fd opened: %d"
+    },
+    {
+      "name": "log_player_prepared",
+      "value": "Prepared, duration %d ms"
+    },
+    {
+      "name": "log_player_playing",
+      "value": "Playing for %d ms"
+    },
+    {
+      "name": "log_player_stopped",
+      "value": "Playback stopped"
+    },
+    {
+      "name": "log_player_error",
+      "value": "Player error %d: %s"
+    },
+    {
+      "name": "log_error_state_release",
+      "value": "Error state reached, releasing"
+    },
+    {
+      "name": "log_release_reused",
+      "value": "Release already running, reusing it"
+    },
+    {
+      "name": "log_listeners_removed",
+      "value": "Player listeners removed"
+    },
+    {
+      "name": "log_player_released",
+      "value": "AVPlayer released"
+    },
+    {
+      "name": "log_no_player",
+      "value": "No player to release"
+    },
+    {
+      "name": "log_rawfd_closed",
+      "value": "Rawfile fd closed"
+    },
+    {
+      "name": "log_rawfd_skip",
+      "value": "Rawfile fd never opened, closeRawFd skipped"
+    },
+    {
+      "name": "log_sandbox_fd_closed",
+      "value": "File fd closed"
+    },
+    {
+      "name": "log_fd_skip",
+      "value": "fd never opened, close skipped"
+    },
+    {
+      "name": "log_release_failed",
+      "value": "Step failed %d: %s"
+    },
+    {
+      "name": "log_interrupt_pause",
+      "value": "Audio interrupted: paused"
+    },
+    {
+      "name": "log_interrupt_resume",
+      "value": "Audio interruption ended: resumed"
+    },
+    {
+      "name": "log_interrupt_stop",
+      "value": "Audio interrupted: stopped by system, releasing"
+    },
+    {
+      "name": "log_device_unavailable",
+      "value": "Output device lost: paused"
+    },
+    {
+      "name": "log_permission_granted",
+      "value": "Microphone permission granted"
+    },
+    {
+      "name": "log_permission_denied",
+      "value": "Microphone denied: nothing was created, nothing to clean up"
+    },
+    {
+      "name": "log_recorder_created",
+      "value": "AVRecorder created"
+    },
+    {
+      "name": "log_recorder_state",
+      "value": "Recorder state: %s"
+    },
+    {
+      "name": "log_record_file_opened",
+      "value": "Output file created, fd %d"
+    },
+    {
+      "name": "log_recorder_prepared",
+      "value": "Recorder prepared"
+    },
+    {
+      "name": "log_recording",
+      "value": "Recording for %d ms"
+    },
+    {
+      "name": "log_recorder_stopped",
+      "value": "Recording stopped, file complete"
+    },
+    {
+      "name": "log_recorder_error",
+      "value": "Recorder error %d: %s"
+    },
+    {
+      "name": "log_recorder_listeners_removed",
+      "value": "Recorder listeners removed"
+    },
+    {
+      "name": "log_recorder_released",
+      "value": "AVRecorder released"
+    },
+    {
+      "name": "log_no_recorder",
+      "value": "No recorder to release"
+    },
+    {
+      "name": "log_record_fd_closed",
+      "value": "Output fd closed"
+    },
+    {
+      "name": "log_record_kept",
+      "value": "Recording complete, file kept"
+    },
+    {
+      "name": "log_partial_deleted",
+      "value": "Incomplete output file deleted"
+    },
+    {
+      "name": "log_partial_gone_verified",
+      "value": "No partial file left on disk"
+    },
+    {
+      "name": "log_partial_still_there",
+      "value": "Partial file still on disk"
+    },
+    {
+      "name": "log_naive_title",
+      "value": "Part A: release() called twice, no guard"
+    },
+    {
+      "name": "log_naive_first",
+      "value": "First release() succeeded"
+    },
+    {
+      "name": "log_naive_second_unexpected",
+      "value": "Second release() did not fail"
+    },
+    {
+      "name": "log_guarded_title",
+      "value": "Part B: two cleanup paths, guarded release()"
+    },
+    {
+      "name": "log_operation_failed",
+      "value": "Error %d: %s"
+    },
+    {
+      "name": "log_all_released",
+      "value": "Open resources: 0"
+    },
+    {
+      "name": "log_leak_detected",
+      "value": "Leak: %d resources still open"
+    },
+    {
+      "name": "log_exit_cleanup",
+      "value": "Screen closing: releasing active sessions"
+    },
+    {
+      "name": "hint_missing_rawfile",
+      "value": "getRawFd() failed before any fd existed, so there is no fd to close"
+    },
+    {
+      "name": "hint_unsupported_format",
+      "value": "prepare() failed after getRawFd() succeeded, so the fd is open and must be closed"
+    },
+    {
+      "name": "hint_operation_not_allowed",
+      "value": "Invalid state for this call, e.g. release() on a released player"
+    },
+    {
+      "name": "hint_invalid_parameter",
+      "value": "prepare() rejected the configuration"
+    },
+    {
+      "name": "hint_permission",
+      "value": "Permission denied"
+    },
+    {
+      "name": "hint_state_timeout",
+      "value": "Expected state was not reached in time"
+    },
+    {
+      "name": "hint_session_released",
+      "value": "Session was released while it was still opening"
+    },
+    {
+      "name": "hint_error_state",
+      "value": "Player entered the error state before reaching the expected state"
+    },
+    {
+      "name": "home_subtitle",
+      "value": "Each scenario must end with 0 open resources"
+    },
+    {
+      "name": "summary_clean_playback",
+      "value": "Normal path, released in order"
+    },
+    {
+      "name": "summary_missing_file",
+      "value": "No fd opened, so none to close"
+    },
+    {
+      "name": "summary_corrupt_file",
+      "value": "prepare() fails, fd still closed"
+    },
+    {
+      "name": "summary_double_release",
+      "value": "Two cleanup paths, one release"
+    },
+    {
+      "name": "summary_record_play",
+      "value": "Recorder freed before playback"
+    },
+    {
+      "name": "summary_failed_record",
+      "value": "Incomplete file is deleted"
+    },
+    {
+      "name": "detail_clean_playback",
+      "value": "Plays a tone for 3 s, then releases the player and closes the rawfile fd, in that order."
+    },
+    {
+      "name": "detail_missing_file",
+      "value": "Requests a rawfile that does not exist. getRawFd() fails before any fd exists, so cleanup releases the player and skips closeRawFd()."
+    },
+    {
+      "name": "detail_corrupt_file",
+      "value": "Opens a text file with an .mp3 extension. prepare() fails after the fd is open, so cleanup must still close it, exactly once."
+    },
+    {
+      "name": "detail_double_release",
+      "value": "Part A calls release() twice without a guard and fails with 5400102. Part B starts two releases at once; cleanup runs once."
+    },
+    {
+      "name": "detail_record_play",
+      "value": "Records 3 s, releases the recorder and closes its fd, then plays the recording."
+    },
+    {
+      "name": "detail_failed_record",
+      "value": "prepare() fails after the output file exists. Cleanup releases the recorder, closes the fd and deletes the file."
+    },
+    {
+      "name": "section_resources",
+      "value": "Open now"
+    },
+    {
+      "name": "section_log",
+      "value": "Log"
+    },
+    {
+      "name": "label_player",
+      "value": "Player"
+    },
+    {
+      "name": "label_recorder",
+      "value": "Rec"
+    },
+    {
+      "name": "label_rawfd",
+      "value": "RawFd"
+    },
+    {
+      "name": "label_fd",
+      "value": "Fd"
+    },
+    {
+      "name": "run",
+      "value": "Run"
+    },
+    {
+      "name": "run_again",
+      "value": "Run again"
+    },
+    {
+      "name": "result_clean",
+      "value": "All resources released"
+    },
+    {
+      "name": "result_leak",
+      "value": "Leak: %d still open"
+    },
+    {
+      "name": "tag_step",
+      "value": "STEP"
+    },
+    {
+      "name": "tag_cleanup",
+      "value": "CLEAN"
+    },
+    {
+      "name": "tag_error",
+      "value": "ERROR"
+    },
+    {
+      "name": "tag_result",
+      "value": "DONE"
+    }
+
+
+  ]
+}

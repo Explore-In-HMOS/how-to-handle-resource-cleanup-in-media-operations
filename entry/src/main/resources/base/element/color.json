@@ -1,0 +1,77 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FF000000"
+    },
+    {
+      "name": "page_bg",
+      "value": "#FF000000"
+    },
+    {
+      "name": "text_primary",
+      "value": "#FFFFFFFF"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#99FFFFFF"
+    },
+    {
+      "name": "button_bg",
+      "value": "#FF1F3A5F"
+    },
+    {
+      "name": "button_text",
+      "value": "#FFFFFFFF"
+    },
+    {
+      "name": "log_step",
+      "value": "#CCFFFFFF"
+    },
+    {
+      "name": "log_cleanup",
+      "value": "#FF5AC8FA"
+    },
+    {
+      "name": "log_error",
+      "value": "#FFFF6B6B"
+    },
+    {
+      "name": "log_result",
+      "value": "#FF4CD964"
+    },
+    {
+      "name": "card_bg",
+      "value": "#FF1C1C1E"
+    },
+    {
+      "name": "number_bg",
+      "value": "#FF1F3A5F"
+    },
+    {
+      "name": "number_text",
+      "value": "#FF5AC8FA"
+    },
+    {
+      "name": "chip_bg",
+      "value": "#FF1C1C1E"
+    },
+    {
+      "name": "chip_active_bg",
+      "value": "#FF4A3A12"
+    },
+    {
+      "name": "chip_active_text",
+      "value": "#FFFFB020"
+    },
+    {
+      "name": "result_clean_bg",
+      "value": "#FF1E4D2B"
+    },
+    {
+      "name": "result_leak_bg",
+      "value": "#FF5C1E1E"
+    }
+
+  ]
+}

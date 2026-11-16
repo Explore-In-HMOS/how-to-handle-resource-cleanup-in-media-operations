@@ -1,0 +1,86 @@
+{
+  "float": [
+    {
+      "name": "page_text_font_size",
+      "value": "50fp"
+    },
+    {
+      "name": "title_font",
+      "value": "16fp"
+    },
+    {
+      "name": "section_font",
+      "value": "14fp"
+    },
+    {
+      "name": "button_font",
+      "value": "13fp"
+    },
+    {
+      "name": "log_font",
+      "value": "10fp"
+    },
+    {
+      "name": "button_height",
+      "value": "38vp"
+    },
+    {
+      "name": "top_inset",
+      "value": "40vp"
+    },
+    {
+      "name": "bottom_inset",
+      "value": "60vp"
+    },
+    {
+      "name": "card_title_font",
+      "value": "13fp"
+    },
+    {
+      "name": "card_summary_font",
+      "value": "10fp"
+    },
+    {
+      "name": "number_font",
+      "value": "12fp"
+    },
+    {
+      "name": "number_size",
+      "value": "24vp"
+    },
+    {
+      "name": "number_radius",
+      "value": "12vp"
+    },
+    {
+      "name": "card_padding",
+      "value": "10vp"
+    },
+    {
+      "name": "card_radius",
+      "value": "18vp"
+    },
+    {
+      "name": "chip_font",
+      "value": "11fp"
+    },
+    {
+      "name": "chip_height",
+      "value": "26vp"
+    },
+    {
+      "name": "chip_radius",
+      "value": "13vp"
+    },
+    {
+      "name": "tag_font",
+      "value": "9fp"
+    },
+    {
+      "name": "tag_width",
+      "value": "38vp"
+    }
+
+
+  ]
+}
